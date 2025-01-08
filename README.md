@@ -1,2 +1,2 @@
 # blog
-blog : strapi + gatsby
+tech blog -> back-end ( Strapi )
