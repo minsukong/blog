@@ -91,12 +91,16 @@ function getForwards(collectedScripts) {
 exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
   "component---src-pages-404-js": () => __webpack_require__.e(/*! import() | component---src-pages-404-js */ "component---src-pages-404-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.js?export=default */ "./src/pages/404.js?export=default")),
-  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default"))
+  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default")),
+  "component---src-pages-strapi-category-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-strapi-category-slug-js */ "component---src-pages-strapi-category-slug-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/{strapiCategory.slug}.js?export=default */ "./src/pages/{strapiCategory.slug}.js?export=default")),
+  "component---src-pages-strapi-post-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-strapi-post-slug-js */ "component---src-pages-strapi-post-slug-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/{strapiPost.slug}.js?export=default */ "./src/pages/{strapiPost.slug}.js?export=default"))
 };
 
 exports.head = {
   "component---src-pages-404-js": () => __webpack_require__.e(/*! import() | component---src-pages-404-jshead */ "component---src-pages-404-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.js?export=head */ "./src/pages/404.js?export=head")),
-  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-jshead */ "component---src-pages-index-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=head */ "./src/pages/index.js?export=head"))
+  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-jshead */ "component---src-pages-index-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=head */ "./src/pages/index.js?export=head")),
+  "component---src-pages-strapi-category-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-strapi-category-slug-jshead */ "component---src-pages-strapi-category-slug-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/{strapiCategory.slug}.js?export=head */ "./src/pages/{strapiCategory.slug}.js?export=head")),
+  "component---src-pages-strapi-post-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-strapi-post-slug-jshead */ "component---src-pages-strapi-post-slug-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/{strapiPost.slug}.js?export=head */ "./src/pages/{strapiPost.slug}.js?export=head"))
 };
 
 /***/ }),
