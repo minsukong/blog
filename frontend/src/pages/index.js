@@ -12,21 +12,11 @@ const IndexPage = ({ data }) => {
               <h3>{node.title}</h3>
             </Link>
             <div class="image-wrap">
-              {/* {node.cover && (
-                <img
-                  class="cover"
-                  src={`${node.cover}`}
-                  alt={`Cover for ${node.title}`}
-                />
-              )} */}
-
-              {/* {node.author.avatar && (
-                <img
-                  class="avatar"
-                  src={`${node.author.avatar}`}
-                  alt={`Avatar for${node.author.name}`}
-                />
-              )} */}
+              <img
+                class="avatar"
+                src={`${node.author.avatar.url}`}
+                alt={`Avatar for ${node.author.name}`}
+              />
             </div>
             <p class="date">{node.date}</p>
             <p class="name">Written by {node.author.name}</p>
@@ -49,6 +39,9 @@ export const query = graphql`
       nodes {
         author {
           name
+          avatar {
+            url
+          }
         }
         date(formatString: "MMMM D, YYYY")
         description

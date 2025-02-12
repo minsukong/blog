@@ -13,6 +13,18 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: strapiConfig,
     },
-    "gatsby-transformer-remark",
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {},
+          },
+        ],
+      },
+    },
+    "gatsby-plugin-sass",
   ],
 };

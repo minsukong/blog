@@ -27,6 +27,9 @@ export const query = graphql`
     strapiPost(id: { eq: $id }) {
       author {
         name
+        avatar {
+          url
+        }
       }
       category {
         name
